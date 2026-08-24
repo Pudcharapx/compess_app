@@ -1,5 +1,14 @@
 # compass_app
 
+## Week 12 workspace
+
+The `week12` branch contains four independent project folders:
+
+- `backend1`: Django REST API with JWT endpoints at `/api/token/` and `/api/token/refresh/`.
+- `backend2`: OpenID Connect provider using `django-oidc-provider`.
+- `frontend1`: Flutter client scaffold for backend1.
+- `frontend2`: Flutter client scaffold for backend2.
+
 The Compass sample application is an app that helps users build and book
 itineraries for trips. It’s a robust sample application with many features, routes, and screens. The app communicates
 with an HTTP server, has development and production environments, brand-specific styling, and high test coverage. In
